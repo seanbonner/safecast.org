@@ -63,7 +63,7 @@
 					<div id="navBlogButton" class="mainNavButton <?php $pageName=$this->get('pageName'); if($pageName=="drives")echo "navActive"; ?>"><a href="/drives" title="<?php echo $this->get('maps') ?>"><?php echo $this->get('maps') ?></a></div>
 					<div id="navBlogButton" class="mainNavButton"><a href="http://blog.safecast.org" title="<?php echo $this->get('blog') ?>"><?php echo $this->get('blog') ?></a></div>
 					<div id="navBlogButton" class="mainNavButton"><a href="/wiki" title="<?php echo $this->get('wiki') ?>"><?php echo $this->get('wiki') ?></a></div>
-					<div id="navSubmitButton" class="mainNavButton <?php $pageName=$this->get('pageName'); if($pageName=="submit")echo "navActive"; ?>" style="width:116px;"><a href="/submit<?php $lang=$this->get('lang'); if($lang=="jp")echo "?lang=jp"; ?>" title="<?php echo $this->get('submitAReading') ?>"><?php echo $this->get('submitAReading') ?></a></div>
+					<!-- <div id="navSubmitButton" class="mainNavButton <?php $pageName=$this->get('pageName'); if($pageName=="submit")echo "navActive"; ?>" style="width:116px;"><a href="/submit<?php $lang=$this->get('lang'); if($lang=="jp")echo "?lang=jp"; ?>" title="<?php echo $this->get('submitAReading') ?>"><?php echo $this->get('submitAReading') ?></a></div> -->
 				</div>
 				<div class="languageNav">
 				    <div><?php echo $this->get('languageSelect'); ?></div>
