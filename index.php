@@ -60,10 +60,10 @@ $tmpl->place('header');
 						  	<!--<p style="padding-top: 10px;"><img src="/images/gridmap_grey.png" class="pinImage" height="18" width="18"/> <?php echo $translations->gridMapLegend1; ?></p> 
 						      <p style="padding-top: 10px;"><img src="/images/gridmap_green.png" class="pinImage" height="18" width="18"/> <?php echo $translations->gridMapLegend2; ?></p> -->
 							  <p><?php echo $translations->gridMapBody; ?> <a href="<?php echo $translations->driveListHref; ?>"><?php echo $translations->gridMapBodyLink; ?></a></p> 
-							  <p><div class="redButton"><a href="/fusion">All Safecast Data 全データセットを見る</a></div><br /></p>
+							  <p><br /><br /><div class="redButton"><a href="/fusion">All Safecast Data 全データセットを見る</a></div><br /></p>
   						      <p><div class="redButton"><a href="<?php echo $translations->driveListHref; ?>">Individual drive maps 各ドライブマップ</a></div></p>
 
-						      <div id="donateBox" align="center">Want to help us collect more data?<br />データ収集支援のため寄付をする<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+						      <div id="donateBox" align="center"><br /><br />Want to help us collect more data?<br />データ収集支援のため寄付をする<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="DK487PKCJLGX6">
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
@@ -118,7 +118,7 @@ $tmpl->place('header');
 									<div id="small_map_canvas" class="map_canvas"></div>
 									<div class="wideBoxContent" style="background-color: white;padding: 10px;line-height: 15px; font-size: 11px; color: black;"> 
 							  <p><?php echo $translations->sensorNetworkBody1; ?><br /> 
-						      <p><?php echo $translations->sensorNetworkBody2; ?> </p>
+						      <?php echo $translations->sensorNetworkBody2; ?> </p>
 						      <div class="rowSpacer20"></div>
 						      <div class="redButton"><a href="/feedmap"><?php echo $translations->aggregateButton; ?></a></div>
    						      <div class="rowSpacer20"></div>
